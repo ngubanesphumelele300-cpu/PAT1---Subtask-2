@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t1, t2, t3;
+
+    cout << "Enter first temperature: ";
+    cin >> t1;
+
+    cout << "Enter second temperature: ";
+    cin >> t2;
+
+    if (t2 - t1 > 50) {
+        cout << "Reduce fryer heat before taking the third reading.\n";
